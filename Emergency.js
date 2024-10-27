@@ -57,12 +57,12 @@ searchButton.addEventListener('click', () => {
     // Perform the same filtering logic as in the input event listener
 });
 
-const emergencyButton = document.getElementById('emergency-button');
+// const emergencyButton = document.getElementById('emergency-button');
 
-emergencyButton.addEventListener('click', () => {
-    const emergencyNumber = '112'; // Replace with your desired emergency number
-    window.location.href = `tel:${emergencyNumber}`;
-});
+// emergencyButton.addEventListener('click', () => {
+//     const emergencyNumber = '112'; // Replace with your desired emergency number
+//     window.location.href = `tel:${emergencyNumber}`;
+// });
 
 // Geolocation
 if (navigator.geolocation) {
