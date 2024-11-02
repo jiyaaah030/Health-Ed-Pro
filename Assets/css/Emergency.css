@@ -4,8 +4,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff017; /* Light teal background */
-    color: white;
+    background-color: #fdfbcf; /* Light teal background */
+    color: #333;
     margin: 0px;
     padding: 0px;
 } 
@@ -201,7 +201,7 @@ nav ul li a {
 
 
 .emergency-button {
-    background-color: #008080;
+    background-color: #854f6c;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -213,7 +213,8 @@ nav ul li a {
 }
 
 .emergency-button:hover {
-    background-color: #006400;
+    background-color: #dfb6b2;
+    color: #522b5b;
 }
 
 /* footer */
