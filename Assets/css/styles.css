@@ -665,3 +665,71 @@ background-color: #808080;
 
 
 /* footer css */
+
+/* Small screens (phones) */
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 60px;
+    margin-bottom: 10px;
+  }
+
+  .images {
+    flex-direction: column;
+  }
+
+  .img1, .img2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer-content-column {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 768px) {
+  .header {
+    padding: 10px;
+  }
+
+  .logo img {
+    width: 70px;
+  }
+
+  .images {
+    flex-direction: column;
+  }
+
+  .img1, .img2 {
+    width: 100%;
+  }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 1024px) {
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+
+  .images {
+    flex-direction: row;
+  }
+
+  .img1, .img2 {
+    width: 45%;
+  }
+}
